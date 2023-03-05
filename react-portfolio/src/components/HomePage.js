@@ -4,17 +4,25 @@ function HomePage() {
   return (
     <>
       <div class="jumbotron">
-        <h1 class="display-4">Hi,</h1>
-        <h2 class="lead">My name is Tatiana,</h2>
+        <div className="container childOne">
+          <h1 className="display-4 hi ">Hi,</h1>
+          <h2 className="lead">My name is Tatiana,</h2>
 
-        <p>I code and design Beautiful websites.</p>
-        <a class="btn" href="#About" role="button">
-          About me
-        </a>
-        <a class="btn" href="#Skills" role="button">
-          My Skills
-        </a>
-        <img src={avatar} alt="My avatar"></img>
+          <p className="paragraph">I code and design Beautiful websites.</p>
+          <div className="btn-border">
+            <a className=" btn-one filter" href="#About" role="button">
+              About me
+            </a>
+          </div>
+          <div className="btn-border-two">
+            <a className="btn-two" href="#Skills" role="button">
+              My Skills
+            </a>
+          </div>
+        </div>
+        <div className="Container avatar">
+          <img src={avatar} alt="My avatar"></img>
+        </div>
       </div>
     </>
   );
