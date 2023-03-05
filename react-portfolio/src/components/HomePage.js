@@ -8,13 +8,13 @@ function HomePage() {
         <h2 class="lead">My name is Tatiana,</h2>
 
         <p>I code and design Beautiful websites.</p>
-        <a class="btn btn-primary btn-lg " href="#About" role="button">
+        <a class="btn" href="#About" role="button">
           About me
         </a>
-        <a class="btn btn-primary btn-lg" href="#Skills" role="button">
+        <a class="btn" href="#Skills" role="button">
           My Skills
         </a>
-        <img src={avatar}></img>
+        <img src={avatar} alt="My avatar"></img>
       </div>
     </>
   );

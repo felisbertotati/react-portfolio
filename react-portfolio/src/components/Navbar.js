@@ -3,8 +3,8 @@ import React from "react";
 function Navbar() {
   return (
     <>
-      <nav className="navbar navbar-expand-lg navbar-light bg-white">
-        <a className="navbar-brand" href="/">
+      <nav className="navbar navbar-expand-lg ">
+        <a className="logo text-white" href="/">
           TL
         </a>
         <button
@@ -18,13 +18,19 @@ function Navbar() {
         >
           <span className="navbar-toggler-icon"></span>
         </button>
-        <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div className="navbar-nav">
-            <a className="nav-link active" href="/">
+        <div
+          className="collapse navbar-collapse justify-content-end"
+          id="navbarNavAltMarkup"
+        >
+          <div className="navbar-nav  ">
+            <a className="nav-link active text-white" href="/HomePage">
               Home <span className="sr-only"></span>
             </a>
             <a className="nav-link" href="/about">
               About me
+            </a>
+            <a className="nav-link " href="/skills">
+              Skills
             </a>
             <a className="nav-link" href="/projects">
               My Work
