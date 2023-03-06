@@ -23,7 +23,7 @@ function Navbar() {
           id="navbarNavAltMarkup"
         >
           <div className="navbar-nav  ">
-            <a className="nav-link active text-white" href="/HomePage">
+            <a className="nav-link active text-white" href="/">
               Home <span className="sr-only"></span>
             </a>
             <a className="nav-link" href="/about">

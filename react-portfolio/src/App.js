@@ -7,6 +7,7 @@ import Skills from "./components/Skills";
 import Contacts from "./components/contacts";
 import { Route, Routes } from "react-router-dom";
 import "./App.css";
+
 function App() {
   return (
     <>

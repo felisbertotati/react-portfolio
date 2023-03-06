@@ -1,5 +1,7 @@
 import React from "react";
 import avatar from "../images/myavatar.png";
+// import { BsGithub } from "react-icons/bs";
+
 function HomePage() {
   return (
     <>
@@ -23,6 +25,7 @@ function HomePage() {
         <div className="Container avatar">
           <img src={avatar} alt="My avatar"></img>
         </div>
+        <div className="icons"></div>
       </div>
     </>
   );
