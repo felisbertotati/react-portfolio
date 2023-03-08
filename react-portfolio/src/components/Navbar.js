@@ -4,8 +4,8 @@ function Navbar() {
   return (
     <>
       <nav className="navbar navbar-expand-lg ">
-        <a className="logo text-white" href="/">
-          TL
+        <a className="logo text-dark" href="/">
+          Tatiana Leitao
         </a>
         <button
           className="navbar-toggler"
@@ -22,9 +22,9 @@ function Navbar() {
           className="collapse navbar-collapse justify-content-end"
           id="navbarNavAltMarkup"
         >
-          <div className="navbar-nav  ">
-            <a className="nav-link active text-white" href="/">
-              Home <span className="sr-only"></span>
+          <div className="navbar-nav">
+            <a className="nav-link" href="/">
+              Home
             </a>
 
             <a className="nav-link " href="/skills">

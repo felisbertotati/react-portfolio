@@ -4,17 +4,16 @@ body {
 }
 
 .navbar {
-  background-color: black;
-  color: white;
+  background-color: #e8f3d6;
 }
 
 .nav-link {
-  color: white;
+  color: black;
   font-size: 15px;
   text-indent: 15px;
 }
 .nav-link:hover {
-  color: #ff15f6;
+  color: #faab78;
 }
 
 .navbar-collapse {
@@ -23,7 +22,7 @@ body {
 
 .logo {
   text-decoration: none;
-  font-size: 30px;
+  font-size: 20px;
   padding-left: 30px;
 }
 
@@ -65,13 +64,17 @@ body {
   height: auto;
 }
 
+.avatarImage {
+  border-radius: 50%;
+}
+
 .btn-border {
   position: relative;
   display: inline-block;
   margin-right: 20px;
   width: 154px;
   height: 49px;
-  border: 1px dashed #ff15f6;
+  border: 1px dashed #faab78;
   border-radius: 20px;
   box-sizing: border-box;
 }
@@ -83,10 +86,10 @@ body {
   width: 100%;
   text-align: center;
   text-decoration: none;
-  color: #ff15f6;
+  color: #faab78;
   padding: 10px;
   height: 100%;
-  border: 1px solid #ff15f6;
+  border: 1px solid #faab78;
   border-radius: 20px;
   background-color: #ffffff;
   box-sizing: border-box;
@@ -95,7 +98,7 @@ body {
 
 .btn-one:hover {
   color: white;
-  background-color: #ff15f6;
+  background-color: #faab78;
 }
 
 .btn-border-two {
@@ -128,4 +131,11 @@ body {
 .btn-two:hover {
   color: white;
   background-color: rgb(0, 0, 0, 0.8);
+}
+
+.rights {
+  display: flex;
+  text-align: center;
+  padding-top: 200px;
+  padding-left: 500px;
 }

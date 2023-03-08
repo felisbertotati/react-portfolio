@@ -1,5 +1,5 @@
 import React from "react";
-import avatar from "../images/myavatar.png";
+import avatar from "../images/myavatartwo.png";
 // import { BsGithub } from "react-icons/bs";
 
 function HomePage() {
@@ -11,7 +11,7 @@ function HomePage() {
           <h2 className="lead">My name is Tatiana,</h2>
 
           <p className="paragraph">I code and design Beautiful websites.</p>
-          <p className="about">
+          <p className="about pb-3">
             I'm located in united Kingdom with a background in customer
             experience and a strong commitment to learning. <br />
             Excel at creating user-friendly applications by combining my
@@ -35,6 +35,9 @@ function HomePage() {
         </div>
         <div className="icons"></div>
       </div>
+      <footer>
+        <p className="rights">© 2023 Tatiana Leitao. All Rights Reserved.</p>
+      </footer>
     </>
   );
 }
