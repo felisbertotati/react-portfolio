@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "name": "Horiseon",
+    "image": "",
+    "about": "This is my first project in the bootcamp. It consists of making the codebase accessible and follows the standards. "
+  },
+  {
+    "id": 2,
+    "name": "Console Log Finances",
+    "image": "",
+    "about": "This project recreates a real-world situation, It consists on analyzing the financial records of a company, using JavaScript skills. "
+  },
+  {
+    "id": 3,
+    "name": "Code Quiz",
+    "image": "",
+    "about": "In this project I had to create a multiple-choice coding quiz that can keep track of the high scores and initials. "
+  },
+  {
+    "id": 4,
+    "name": "Daily Planner Calendar",
+    "image": "",
+    "about": "In this project I have to create a calendar application. This application allows user's to save events for each hour of the day. "
+  },
+  {
+    "id": 5,
+    "name": "Weather App",
+    "image": "",
+    "about": "In this project I have to create a weather dashboar application that allow users to see the weather forecast for cities of their choice. I used aN API server calls open weather open weather so with that I have access their data and functionality by making requests with spcecific parameters to a URL. "
+  },
+  {
+    "id": 6,
+    "name": "Calorie",
+    "image": "",
+    "about": "This webpage is designed to allow the user to select a variety of cuisines such as Korean, Chinese, Japanese, etc. even to western cuisine such as American, Latin American and even European cuisines. When a user selects a cuisine, the app will show them a variety of choices shown in cards with images. Then, when the user clicks on the button to show the recipe instruction with health score to show how healthy the recipe is ranging towards 100%. "
+  }
+]
