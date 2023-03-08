@@ -11,6 +11,14 @@ function HomePage() {
           <h2 className="lead">My name is Tatiana,</h2>
 
           <p className="paragraph">I code and design Beautiful websites.</p>
+          <p className="about">
+            I'm located in united Kingdom with a background in customer
+            experience and a strong commitment to learning. <br />
+            Excel at creating user-friendly applications by combining my
+            creative and problem-solving skills. <br />
+            Recognized for my quick-thinking and meticulous approach, especially
+            when working on challenging projects.
+          </p>
           <div className="btn-border">
             <a className=" btn-one filter" href="#About" role="button">
               About me
@@ -22,8 +30,8 @@ function HomePage() {
             </a>
           </div>
         </div>
-        <div className="Container avatar">
-          <img src={avatar} alt="My avatar"></img>
+        <div className="Container avatar ">
+          <img src={avatar} alt="My avatar" className="avatarImage"></img>
         </div>
         <div className="icons"></div>
       </div>
