@@ -27,12 +27,12 @@
     "id": 5,
     "name": "Weather App",
     "image": "",
-    "about": "In this project I have to create a weather dashboar application that allow users to see the weather forecast for cities of their choice. I used aN API server calls open weather open weather so with that I have access their data and functionality by making requests with spcecific parameters to a URL. "
+    "about": "In this project I have to create a weather dashboar application that allow users to see the weather forecast for cities of their choice. I used an API server calls open weather, with that I have access their data and functionality by making requests with spcecific parameters to a URL. "
   },
   {
     "id": 6,
     "name": "Calorie",
     "image": "",
-    "about": "This webpage is designed to allow the user to select a variety of cuisines such as Korean, Chinese, Japanese, etc. even to western cuisine such as American, Latin American and even European cuisines. When a user selects a cuisine, the app will show them a variety of choices shown in cards with images. Then, when the user clicks on the button to show the recipe instruction with health score to show how healthy the recipe is ranging towards 100%. "
+    "about": "This webpage is designed to allow the user to select a variety of cuisines such as Korean, Chinese, Japanese, etc. even to western cuisine such as American, Latin American and even European cuisines. "
   }
 ]
