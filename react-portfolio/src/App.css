@@ -52,13 +52,17 @@ body {
 
 .paragraph {
   padding-bottom: 20px;
-  font-size: 20px;
+}
+.about {
+  text-align: justify;
 }
 
 .avatar {
   position: absolute;
   top: 70px;
   right: 50px;
+  width: 300px;
+  height: auto;
 }
 
 .btn-border {

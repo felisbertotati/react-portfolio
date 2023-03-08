@@ -26,9 +26,7 @@ function Navbar() {
             <a className="nav-link active text-white" href="/">
               Home <span className="sr-only"></span>
             </a>
-            <a className="nav-link" href="/about">
-              About me
-            </a>
+
             <a className="nav-link " href="/skills">
               Skills
             </a>
