@@ -28,7 +28,7 @@ body {
 
 .jumbotron {
   position: relative;
-  width: 100%;
+  width: auto;
   padding-top: 30%;
 }
 
@@ -138,4 +138,35 @@ body {
   text-align: center;
   padding-top: 200px;
   padding-left: 500px;
+}
+
+.btn-projects {
+  position: absolute;
+  top: 5px;
+  left: -5px;
+  text-align: center;
+  text-decoration: none;
+  color: #faab78;
+  padding: 10px;
+  border: 1px solid #faab78;
+  border-radius: 20px;
+  background-color: #ffffff;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.btn-projects-border {
+  position: relative;
+  display: inline-block;
+  margin-right: 20px;
+  width: 129px;
+  height: 46px;
+  border: 1px dashed #faab78;
+  border-radius: 20px;
+  box-sizing: border-box;
+}
+
+.btn-projects:hover {
+  color: white;
+  background-color: #faab78;
 }
