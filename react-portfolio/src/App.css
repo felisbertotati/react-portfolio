@@ -316,6 +316,37 @@ footer {
   color: #f5e9cf;
 }
 
+/*Button*/
+.contacts-button {
+  position: absolute; /* or fixed, or sticky */
+  bottom: 225px; /* adjust this value to position the button as desired */
+  width: 150px;
+  left: 45%;
+  text-align: center;
+  text-decoration: none;
+  color: #e96479;
+  padding: 10px;
+  height: 40px;
+  border: 1px solid #e96479;
+  border-radius: 20px;
+  background-color: #ffffff;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+.contacts-button:hover {
+  color: #f5e9cf;
+  background-color: #e96479;
+}
+
 .footer {
   background-color: #7db9b6;
+}
+
+.social-icons {
+  text-align: center;
+  font-size: 30px;
+}
+.social-icons > a {
+  padding-top: 30px;
+  color: #4d455d;
 }
