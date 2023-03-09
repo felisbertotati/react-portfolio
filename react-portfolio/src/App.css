@@ -171,7 +171,8 @@ footer {
   /* padding-left: 500px; */
 }
 
-/*My skills*/
+/*Style my projects file*/
+
 .border-card-box {
   box-sizing: border-box;
   position: absolute;
@@ -180,18 +181,34 @@ footer {
   background: #ffffff;
   border-radius: 0px 20px;
 }
+
 .card {
+  display: flex;
   position: relative;
   box-sizing: border-box;
-  width: 299px;
-  height: 354px;
+  width: 300px;
+  height: 370px;
   border: 2px dashed #4d455d;
   border-radius: 0px 20px;
 }
 
+.card-text {
+  font-size: 15px;
+  padding-top: 20px;
+}
+
+.card-title {
+  font-size: 30px;
+  text-align: center;
+}
+
+/*Style carousel*/
+
+/*Creat a button*/
+
 .btn-projects {
   position: absolute;
-  top: 5px;
+  bottom: 5px;
   left: -5px;
   text-align: center;
   text-decoration: none;
@@ -202,9 +219,8 @@ footer {
   background-color: #ffffff;
   box-sizing: border-box;
   cursor: pointer;
-  display: flex;
 }
-
+/*Added a border to the button*/
 .btn-projects-border {
   position: relative;
   display: inline-block;
@@ -222,6 +238,7 @@ footer {
   color: #f5e9cf;
 }
 
+/*Style skills page*/
 .skills {
   text-align: center;
   color: #e96479;
