@@ -4,7 +4,7 @@ function Navbar() {
   return (
     <>
       <nav className="navbar navbar-expand-lg ">
-        <a className="logo text-dark" href="/">
+        <a className="logo" href="/">
           Tatiana Leitao
         </a>
         <button

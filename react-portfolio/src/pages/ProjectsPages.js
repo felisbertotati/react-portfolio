@@ -7,10 +7,14 @@ function ProjectsPages() {
       <div className="row">
         {myWork.map((work) => (
           <div className="col-md-4 pt-3" key={work.id}>
-            <div className="card m-4">
+            <div className="card m-4 border-card-box">
               <div className="card-body">
                 <h3 className="card-text">{work.name}</h3>
-                {/* <img className="card-img">{work.image}</img> */}
+                <img
+                  className="card-img"
+                  src={work.image}
+                  alt="My work images"
+                ></img>
                 <p className="card-text">{work.about}</p>
                 <div className="btn-projects-border">
                   <a href="/" class="btn-projects">

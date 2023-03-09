@@ -1,34 +1,61 @@
 body {
   width: 100%;
   height: 100%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Set the minimum height to 100% of the viewport height */
+}
+
+.container {
+  flex-grow: 1; /* Take up all available space */
+}
+
+footer {
+  margin-top: auto; /* Push the footer to the bottom */
+  height: 100px;
+  width: 100%;
+}
+
+/*navbar style*/
+
 .navbar {
-  background-color: #e8f3d6;
+  background-color: #4d455d;
+  height: 100px;
+  width: 100%;
 }
 
 .nav-link {
-  color: black;
+  color: #f5e9cf;
   font-size: 15px;
   text-indent: 15px;
 }
 .nav-link:hover {
-  color: #faab78;
+  color: #e96479;
+}
+
+/*Logo style*/
+
+.logo {
+  color: #f5e9cf;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-decoration: none;
+  font-size: 20px;
+  padding-left: 30px;
 }
 
 .navbar-collapse {
   padding-right: 40px;
 }
 
-.logo {
-  text-decoration: none;
-  font-size: 20px;
-  padding-left: 30px;
-}
+/*Homepage style*/
 
 .jumbotron {
   position: relative;
-  width: auto;
+
   padding-top: 30%;
 }
 
@@ -68,13 +95,15 @@ body {
   border-radius: 50%;
 }
 
+/*Buttons style*/
+
 .btn-border {
   position: relative;
   display: inline-block;
   margin-right: 20px;
   width: 154px;
   height: 49px;
-  border: 1px dashed #faab78;
+  border: 1px dashed #e96479;
   border-radius: 20px;
   box-sizing: border-box;
 }
@@ -86,10 +115,10 @@ body {
   width: 100%;
   text-align: center;
   text-decoration: none;
-  color: #faab78;
+  color: #e96479;
   padding: 10px;
   height: 100%;
-  border: 1px solid #faab78;
+  border: 1px solid #e96479;
   border-radius: 20px;
   background-color: #ffffff;
   box-sizing: border-box;
@@ -97,8 +126,8 @@ body {
 }
 
 .btn-one:hover {
-  color: white;
-  background-color: #faab78;
+  color: #f5e9cf;
+  background-color: #e96479;
 }
 
 .btn-border-two {
@@ -106,7 +135,7 @@ body {
   display: inline-block;
   width: 154px;
   height: 49px;
-  border: 1px dashed black;
+  border: 1px dashed #4d455d;
   border-radius: 20px;
   box-sizing: border-box;
 }
@@ -118,10 +147,10 @@ body {
   width: 100%;
   text-align: center;
   text-decoration: none;
-  color: black;
+  color: #4d455d;
   padding: 10px;
   height: 100%;
-  border: 1px solid black;
+  border: 1px solid #4d455d;
   border-radius: 20px;
   background-color: #ffffff;
   box-sizing: border-box;
@@ -129,15 +158,35 @@ body {
 }
 
 .btn-two:hover {
-  color: white;
-  background-color: rgb(0, 0, 0, 0.8);
+  color: #f5e9cf;
+  background-color: #4d455d;
 }
 
+/*Footer*/
+
 .rights {
-  display: flex;
+  /* display: flex; */
   text-align: center;
-  padding-top: 200px;
-  padding-left: 500px;
+  /* padding-top: 200px; */
+  /* padding-left: 500px; */
+}
+
+/*My skills*/
+.border-card-box {
+  box-sizing: border-box;
+  position: absolute;
+  width: 299px;
+  height: 354px;
+  background: #ffffff;
+  border-radius: 0px 20px;
+}
+.card {
+  position: relative;
+  box-sizing: border-box;
+  width: 299px;
+  height: 354px;
+  border: 2px dashed #4d455d;
+  border-radius: 0px 20px;
 }
 
 .btn-projects {
@@ -146,13 +195,14 @@ body {
   left: -5px;
   text-align: center;
   text-decoration: none;
-  color: #faab78;
+  color: #e96479;
   padding: 10px;
-  border: 1px solid #faab78;
-  border-radius: 20px;
+  border: 1px solid #e96479;
+  border-radius: 0 0 0 20px;
   background-color: #ffffff;
   box-sizing: border-box;
   cursor: pointer;
+  display: flex;
 }
 
 .btn-projects-border {
@@ -161,12 +211,94 @@ body {
   margin-right: 20px;
   width: 129px;
   height: 46px;
-  border: 1px dashed #faab78;
-  border-radius: 20px;
+  border: 1px dashed #e96479;
+  border-radius: 0 0 0 20px;
   box-sizing: border-box;
 }
 
 .btn-projects:hover {
   color: white;
-  background-color: #faab78;
+  background-color: #e96479;
+  color: #f5e9cf;
+}
+
+.skills {
+  text-align: center;
+  color: #e96479;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.mySkills {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+.card-one {
+  position: absolute;
+  top: 5px;
+  left: -5px;
+  width: 100%;
+  text-align: center;
+  text-decoration: none;
+  color: #4d455d;
+  padding: 10px;
+  height: 350px;
+  border: 1px solid #4d455d;
+  border-radius: 20px;
+  background-color: #ffffff;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+.card-border-one {
+  position: relative;
+  display: inline-block;
+  height: 350px;
+  margin-right: 20px;
+  border: 1px dashed #4d455d;
+  border-radius: 20px;
+  box-sizing: border-box;
+}
+
+.btn-border {
+  position: relative;
+  display: inline-block;
+  margin-right: 20px;
+  width: 154px;
+  height: 49px;
+  border: 1px dashed #e96479;
+  border-radius: 20px;
+  box-sizing: border-box;
+}
+
+.btn-one {
+  position: absolute;
+  top: 5px;
+  left: -5px;
+  width: 100%;
+  text-align: center;
+  text-decoration: none;
+  color: #e96479;
+  padding: 10px;
+  height: 100%;
+  border: 1px solid #e96479;
+  border-radius: 20px;
+  background-color: #ffffff;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.card-one:hover {
+  background-color: #4d455d;
+  color: #f5e9cf;
+}
+
+.card-two:hover {
+  background-color: #4d455d;
+  color: #f5e9cf;
+}
+
+.footer {
+  background-color: #7db9b6;
 }
