@@ -6,7 +6,7 @@ function HomePage() {
   return (
     <>
       <div class="jumbotron">
-        <div className="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-1">
+        <div className="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-1 reverse">
           <div className="childOne">
             <h1 className="display-4 hi ">Hi,</h1>
             <h2 className="lead">My name is Tatiana,</h2>

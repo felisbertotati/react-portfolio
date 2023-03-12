@@ -1,7 +1,7 @@
 import React, { useRef, useEffect } from "react";
 import myWork from "../myprojects.json";
 import { Carousel } from "react-bootstrap";
-import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
+import { FaArrowLeft, FaArrowRight, FaGithub } from "react-icons/fa";
 
 function ProjectsPages() {
   const carouselRef = useRef(null);
@@ -60,9 +60,27 @@ function ProjectsPages() {
                               alt="My work images"
                             ></img>
                             <p className="card-text">{work.about}</p>
-                            <div className="btn-projects-border">
-                              <a href={work} className="btn-projects">
-                                Go somewhere
+                            <div className="btn-container">
+                              <div className="btn-projects-border">
+                                <a
+                                  href={work.url}
+                                  className="btn-projects"
+                                  target="_blank"
+                                  rel="noopener noreferrer"
+                                >
+                                  Go somewhere
+                                </a>
+                              </div>
+
+                              <a
+                                href={work.githubUrl}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                              >
+                                <FaGithub
+                                  size={30}
+                                  className="card-icon mb-5 "
+                                />
                               </a>
                             </div>
                           </div>

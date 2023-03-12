@@ -22,25 +22,9 @@ footer {
 
 /*navbar style*/
 
-:root {
-  --text-color: #333;
-  --bg-color: #fff;
-}
-.dark-mode {
-  --text-color: #fff;
-  --bg-color: #333;
-}
 .navbar {
-  background-color: var(--bg-color);
-  color: var(--text-color);
-  height: 70px;
-  width: 100%;
-}
-
-/* .navbar {
   background-color: #4d455d;
- 
-} */
+}
 
 .nav-link {
   color: #f5e9cf;
@@ -69,7 +53,6 @@ footer {
 
 .jumbotron {
   position: relative;
-
   padding-top: 30%;
 }
 
@@ -101,13 +84,12 @@ footer {
   position: absolute;
   top: 70px;
   right: 50px;
-  width: 220px;
+  width: 300px;
   height: auto;
 }
 
 .avatarImage {
   border-radius: 50%;
-  width: 250px;
 }
 
 /*Buttons style*/
@@ -224,8 +206,6 @@ footer {
   text-align: center;
 }
 
-/*Style carousel*/
-
 /*Creat a button*/
 
 .btn-projects {
@@ -258,6 +238,21 @@ footer {
   color: white;
   background-color: #e96479;
   color: #f5e9cf;
+}
+
+.btn-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-icon {
+  color: #e96479;
+}
+
+.card-icon:hover {
+  color: #4d455d;
+  cursor: pointer;
 }
 
 /*Style skills page*/
@@ -380,4 +375,59 @@ footer {
 .social-icons > a {
   padding-top: 30px;
   color: #4d455d;
+}
+
+/*media query*/
+
+@media (max-width: 768px) {
+  .reverse {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .childOne {
+    position: static;
+    transform: none;
+    text-align: center;
+    padding-bottom: 50px;
+    width: 100%;
+  }
+
+  .avatar {
+    position: static;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    width: 100%;
+  }
+
+  .avatarImage {
+    width: 250px;
+  }
+
+  .btn-border {
+    margin-bottom: 20px;
+  }
+
+  .btn-border-two {
+    margin-bottom: 20px;
+  }
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 768px) {
+  .jumbotron {
+    margin-top: 50px;
+  }
+
+  .about {
+    width: 75%;
+  }
+
+  .avatar {
+    width: 15%;
+  }
+
+  .avatarImage {
+    width: 200px;
+  }
 }
