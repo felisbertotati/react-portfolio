@@ -1,6 +1,7 @@
 import React, { useRef, useEffect } from "react";
 import myWork from "../myprojects.json";
 import { Carousel } from "react-bootstrap";
+import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 
 function ProjectsPages() {
   const carouselRef = useRef(null);
@@ -40,11 +41,11 @@ function ProjectsPages() {
         <div className="row">
           <div className="col-1 align-self-center">
             <button className="btn btn-link" onClick={handlePrevClick}>
-              <span className="carousel-control-prev-icon" />
+              <FaArrowLeft color="#4d455d" size={24} />
             </button>
           </div>
           <div className="col-10">
-            <Carousel ref={carouselRef} interval={3000}>
+            <Carousel ref={carouselRef} interval={3000} controls={false}>
               {groupedWork.map((group) => (
                 <Carousel.Item key={group[0].id}>
                   <div className="row">
@@ -60,7 +61,7 @@ function ProjectsPages() {
                             ></img>
                             <p className="card-text">{work.about}</p>
                             <div className="btn-projects-border">
-                              <a href="/" className="btn-projects">
+                              <a href={work} className="btn-projects">
                                 Go somewhere
                               </a>
                             </div>
@@ -75,7 +76,7 @@ function ProjectsPages() {
           </div>
           <div className="col-1 align-self-center">
             <button className="btn btn-link" onClick={handleNextClick}>
-              <span className="carousel-control-next-icon" />
+              <FaArrowRight size={24} color="#4d455d" />
             </button>
           </div>
         </div>

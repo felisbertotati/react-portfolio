@@ -22,11 +22,25 @@ footer {
 
 /*navbar style*/
 
+:root {
+  --text-color: #333;
+  --bg-color: #fff;
+}
+.dark-mode {
+  --text-color: #fff;
+  --bg-color: #333;
+}
 .navbar {
-  background-color: #4d455d;
-  height: 100px;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  height: 70px;
   width: 100%;
 }
+
+/* .navbar {
+  background-color: #4d455d;
+ 
+} */
 
 .nav-link {
   color: #f5e9cf;
@@ -62,7 +76,7 @@ footer {
 .childOne {
   position: absolute;
   top: 50%;
-  left: 60%;
+  left: 50%;
   transform: translate(-50%, -50%);
 }
 
@@ -87,12 +101,13 @@ footer {
   position: absolute;
   top: 70px;
   right: 50px;
-  width: 300px;
+  width: 220px;
   height: auto;
 }
 
 .avatarImage {
   border-radius: 50%;
+  width: 250px;
 }
 
 /*Buttons style*/
@@ -160,6 +175,13 @@ footer {
 .btn-two:hover {
   color: #f5e9cf;
   background-color: #4d455d;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
 }
 
 /*Footer*/
@@ -252,6 +274,7 @@ footer {
   width: 100%;
   height: 100%;
 }
+
 .card-one {
   position: absolute;
   top: 5px;
@@ -314,6 +337,14 @@ footer {
 .card-two:hover {
   background-color: #4d455d;
   color: #f5e9cf;
+}
+
+.btn-skills {
+  display: flex;
+  justify-content: center;
+  color: #e96479;
+  font-size: 20px;
+  padding-top: 30px;
 }
 
 /*Button*/

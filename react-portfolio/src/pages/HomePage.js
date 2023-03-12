@@ -7,7 +7,7 @@ function HomePage() {
     <>
       <div class="jumbotron">
         <div className="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-1">
-          <div className="container childOne">
+          <div className="childOne">
             <h1 className="display-4 hi ">Hi,</h1>
             <h2 className="lead">My name is Tatiana,</h2>
 
@@ -21,17 +21,17 @@ function HomePage() {
               especially when working on challenging projects.
             </p>
             <div className="btn-border">
-              <a className=" btn-one filter" href="#About" role="button">
-                About me
+              <a className=" btn-one filter" href="/projects" role="button">
+                My Work
               </a>
             </div>
             <div className="btn-border-two">
-              <a className="btn-two" href="#Skills" role="button">
-                My Skills
+              <a className="btn-two" href="/ontacts" role="button">
+                Contact me
               </a>
             </div>
           </div>
-          <div className="Container avatar ">
+          <div className="avatar ">
             <img src={avatar} alt="My avatar" className="avatarImage"></img>
           </div>
         </div>

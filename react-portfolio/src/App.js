@@ -6,6 +6,7 @@ import Skills from "./pages/Skills";
 import Contacts from "./pages/Contacts";
 import Footer from "./components/Footer";
 import { Route, Routes } from "react-router-dom";
+
 import "./App.css";
 
 function App() {
