@@ -177,15 +177,6 @@ footer {
 
 /*Style my projects file*/
 
-.border-card-box {
-  box-sizing: border-box;
-  position: absolute;
-  width: 299px;
-  height: 354px;
-  background: #ffffff;
-  border-radius: 0px 20px;
-}
-
 .card {
   display: flex;
   position: relative;
