@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "Horiseon",
-    "image": "public/images/horiseon_ori.png",
+    "image": "..public/images/horiseon_ori.png",
     "about": " Organize the website with semantic HTML ",
     "url": "https://felisbertotati.github.io/Semantic-HTML/",
     "githubUrl": "https://github.com/felisbertotati/Semantic-HTML"
@@ -10,7 +10,7 @@
   {
     "id": 2,
     "name": "Finances",
-    "image": "public/images/finances.png",
+    "image": "..public/images/finances.png",
     "about": "Real-world situation on analyzing the financial records of a company. ",
     "url": "https://felisbertotati.github.io/Console-Finances/",
     "githubUrl": "https://github.com/felisbertotati/Console-Finances"
@@ -18,7 +18,7 @@
   {
     "id": 3,
     "name": "Code Quiz",
-    "image": "public/images/codequiz.png",
+    "image": "..public/images/codequiz.png",
     "about": "Create a multiple-choice coding quiz that can keep track of the high scores.",
     "url": "https://felisbertotati.github.io/Code-Quiz/",
     "githubUrl": "https://github.com/felisbertotati/Code-Quiz"
@@ -26,7 +26,7 @@
   {
     "id": 4,
     "name": "Daily Planner ",
-    "image": "public/images/dailyplanner.png",
+    "image": "..public/images/dailyplanner.png",
     "about": "Create a calendar app allowing user's to save events for each hour of the day. ",
     "url": "https://github.com/felisbertotati/Daily-Planner-Calendar",
     "githubUrl": "https://github.com/felisbertotati/Daily-Planner-Calendar"
@@ -34,7 +34,7 @@
   {
     "id": 5,
     "name": "Weather App",
-    "image": "public/images/weather.png",
+    "image": "..public/images/weather.png",
     "about": " Create a weather dashboar application allowing users see the weather forecast. ",
     "url": "https://felisbertotati.github.io/Weather-App/",
     "githubUrl": "https://github.com/felisbertotati/Weather-App"
@@ -42,7 +42,7 @@
   {
     "id": 6,
     "name": "Calorie",
-    "image": "public/images/calorie.png",
+    "image": "..public/images/calorie.png",
     "about": "App that allows users choose tips of cousin and ingredients ",
     "url": "https://marilynwho.github.io/calory-app/",
     "githubUrl": "https://github.com/felisbertotati/calory-app"
