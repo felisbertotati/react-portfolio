@@ -47,7 +47,7 @@ function ProjectsPages() {
           <div className="col-10">
             <Carousel ref={carouselRef} interval={3000} controls={false}>
               {groupedWork.map((group) => (
-                <Carousel.Item key={group[0].id}>
+                <Carousel.Item key={group.id}>
                   <div className="row">
                     {group.map((work) => (
                       <div className="col-md-4 pt-3" key={work.id}>
