@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "Horiseon",
-    "image": "react-portfolio/public/images/horiseon_ori.png",
+    "image": "https://github.com/felisbertotati/react-portfolio/blob/main/public/images/horiseon_ori.png?raw=true",
     "about": " Organize the website with semantic HTML ",
     "url": "https://felisbertotati.github.io/Semantic-HTML/",
     "githubUrl": "https://github.com/felisbertotati/Semantic-HTML"
@@ -10,15 +10,15 @@
   {
     "id": 2,
     "name": "Finances",
-    "image": "../images/finances.png",
+    "image": "https://github.com/felisbertotati/react-portfolio/blob/main/public/images/finances.png?raw=true",
     "about": "Real-world situation on analyzing the financial records of a company. ",
-    "url": "https://felisbertotati.github.io/Console-Finances/",
+    "url": "https://github.com/felisbertotati/react-portfolio/blob/main/public/images/finances.png?raw=true",
     "githubUrl": "https://github.com/felisbertotati/Console-Finances"
   },
   {
     "id": 3,
     "name": "Code Quiz",
-    "image": "../images/codequiz.png",
+    "image": "https://github.com/felisbertotati/react-portfolio/blob/main/public/images/codequiz.png?raw=true",
     "about": "Create a multiple-choice coding quiz that can keep track of the high scores.",
     "url": "https://felisbertotati.github.io/Code-Quiz/",
     "githubUrl": "https://github.com/felisbertotati/Code-Quiz"
@@ -26,7 +26,7 @@
   {
     "id": 4,
     "name": "Daily Planner ",
-    "image": "../images/dailyplanner.png",
+    "image": "https://github.com/felisbertotati/react-portfolio/blob/main/public/images/dailyplanner.png?raw=true",
     "about": "Create a calendar app allowing user's to save events for each hour of the day. ",
     "url": "https://github.com/felisbertotati/Daily-Planner-Calendar",
     "githubUrl": "https://github.com/felisbertotati/Daily-Planner-Calendar"
@@ -34,7 +34,7 @@
   {
     "id": 5,
     "name": "Weather App",
-    "image": "../images/weather.png",
+    "image": "https://github.com/felisbertotati/react-portfolio/blob/main/public/images/weather.png?raw=true",
     "about": " Create a weather dashboar application allowing users see the weather forecast. ",
     "url": "https://felisbertotati.github.io/Weather-App/",
     "githubUrl": "https://github.com/felisbertotati/Weather-App"
@@ -42,7 +42,7 @@
   {
     "id": 6,
     "name": "Calorie",
-    "image": "../images/calorie.png",
+    "image": "https://github.com/felisbertotati/react-portfolio/blob/main/public/images/calorie.png?raw=true",
     "about": "App that allows users choose tips of cousin and ingredients ",
     "url": "https://marilynwho.github.io/calory-app/",
     "githubUrl": "https://github.com/felisbertotati/calory-app"
