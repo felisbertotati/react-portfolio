@@ -1,7 +1,7 @@
 import React from "react";
 import avatar from "../images/myavatartwo.png";
 // import { BsGithub } from "react-icons/bs";
-
+import { Link } from "react-router-dom";
 function HomePage() {
   return (
     <>
@@ -21,14 +21,14 @@ function HomePage() {
               especially when working on challenging projects.
             </p>
             <div className="btn-border">
-              <a className=" btn-one filter" href="/projects" role="button">
+              <Link className=" btn-one filter" to="/projects" role="button">
                 My Work
-              </a>
+              </Link>
             </div>
             <div className="btn-border-two">
-              <a className="btn-two" href="/ontacts" role="button">
+              <Link className="btn-two" to="/contacts" role="button">
                 Contact me
-              </a>
+              </Link>
             </div>
           </div>
           <div className="avatar ">
