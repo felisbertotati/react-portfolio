@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "Horiseon",
-    "image": "../images/horiseon_ori.png",
+    "image": "react-portfolio/public/images/horiseon_ori.png",
     "about": " Organize the website with semantic HTML ",
     "url": "https://felisbertotati.github.io/Semantic-HTML/",
     "githubUrl": "https://github.com/felisbertotati/Semantic-HTML"
