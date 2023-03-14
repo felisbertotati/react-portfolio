@@ -17,6 +17,8 @@ In this project I had to develope my portfolio site, as well create or update ot
 
 You can visit my portfolio clicking the link:
 
+![image](https://github.com/felisbertotati/react-portfolio/blob/main/react-portfolio/src/images/screenshot.png?raw=true)
+
 ## License
 
 MIT License
