@@ -41,7 +41,7 @@ function Skills() {
 
       <a
         className="btn-skills"
-        href="https://drive.google.com/file/d/1-tyKv7qvxvTshmhX1TfGa0AhCKcL1pZQ/view?usp=sharing"
+        href="https://drive.google.com/file/d/101O4b6jTtpgmfiIEZtbO869rpanCsJjS/view?usp=sharing"
         role="button"
       >
         My Resume
